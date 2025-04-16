@@ -293,10 +293,23 @@
                             'Career Development: Get training, seminars and experiences that improve your skills and job prospects.'
                         ],
                         logo: 'src/img/lotte.png' // ganti dengan path logo gambar
+                    },
+                    {
+                        id: 6,
+                        title: 'Faculty Of computer Science (FILKOM UB)',
+                        position: 'Practicum Assistant Of Object Oriented Programming (JAVA)',
+                        duration: 'Feb 2025 - Now',
+                        description: [
+                            'Taught practicum sessions for courses Java Object Oriented Programming',
+                            'Taught 33 students about Java Object Oriented Programming',
+                            'Conducted practicum sessions and provided practicum feedback and assessment'
+                        ],
+                        logo: 'src/img/fil-removebg-preview.png' // ganti dengan path logo gambar
                     }
+                
                 ],
                 loop(){
-                    setInterval(() => {this.activeSlide = this.activeSlide === 5 ? 1 :this.activeSlide + 1}, 5000)
+                    setInterval(() => {this.activeSlide = this.activeSlide === 6 ? 1 :this.activeSlide + 1}, 5000)
                 }
             }"
             x-init="loop"
